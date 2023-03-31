@@ -1,0 +1,232 @@
+
+body{
+  overflow-x: hidden;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+
+
+
+.band {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+@media (min-width: 30em) {
+  .band {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 60em) {
+  .band {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.card {
+  background: white;
+  text-decoration: none;
+  color: #444;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+  top: 0;
+  transition: all 0.1s ease-in;
+}
+.card:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+.card article {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #333;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+.card p {
+  flex: 1;
+  line-height: 1.4;
+  text-align: justify;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+color: #555555;
+
+}
+.card span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 2em 0 0 0;
+}
+.card .thumb {
+  padding-bottom: 65%;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 60em) {
+  .item-1 {
+    grid-column: 1/span 2;
+  }
+  .item-1 h1 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 60em) {
+  .item-11{
+    grid-column: 3/span 2;
+  }
+  .item-11 h1 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 60em) {
+  .item-12{
+    grid-column: 1/span 4;
+  }
+  .item-12 h1 {
+    font-size: 24px;
+  }
+  
+}.resources {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.resources__item:not(:last-child) {
+  padding-bottom: 82px;
+  border-bottom: 1px solid #F2F2F2;
+}
+.resources__item:not(:first-child) {
+  padding-top: 71px;
+}
+.resources__img-wrap img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.resources__info {
+  padding-top: 25px;
+  padding-left: 25px;
+}
+.resources__info h1 {
+  font-size: 31px;
+  line-height: 37px;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  margin-right: 160px;
+}
+.resources__info h2 {
+  font-family: "Droid Serif", serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-size: 21px;
+  line-height: 28px;
+}
+.resources__info-top {
+  margin-bottom: 20px;
+}
+
+.resources__btn-area {
+  margin-top: 20px;
+}
+.resources__info p {
+  padding-right: 30px;
+}
+
+
+/* corner logo  */
+.corner-logo {
+  width: 150px;
+  height: 90px;
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid #ccc;
+  position: relative;
+  text-decoration: none;
+  font-size: 0px;
+}
+.corner-logo:before,
+.corner-logo:after {
+  background: #fff;
+  position: absolute;
+  z-index: 1;
+  content: '';
+}
+.corner-logo:before {
+  top: -1px;
+  left: 10px;
+  right: 10px;
+  bottom: -1px;
+}
+.corner-logo:after {
+  top: 10px;
+  left: -1px;
+  right: -1px;
+  bottom: 10px;
+}
+
+.corner-logo__inner {
+  position: relative;
+  width: 148px;
+  height: 88px;
+  background-color: #FAFAFA;
+  border: 3px solid #fff;
+  z-index: 5;
+  overflow: hidden;
+}
+.corner-logo__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  max-width: 140px;
+  max-height: 80px;  
+}
+@media (max-width: 767px) {
+  .resources__info h1 {
+    margin-right: 0;
+  }
+  
+}
+@media (min-width: 768px) {
+  .resources__info h1 {
+    margin-right: 0;
+  }
+}
+
+
+#marketo-wrapper1{
+  background-image: url("https://images.pexels.com/photos/1463521/pexels-photo-1463521.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100% ;
+  position:relative;
+  opacity: 0.8;
+  padding: 40px 0 40px;
+  height: 450px;
+}
+
+#marketo-wrapper1 h1{
+padding: 150px;
+}
