@@ -121,6 +121,50 @@ color: #555555;
   vertical-align: top;
 }
 
+@media only screen and (max-width: 360px) {
+  .resources__img-wrap img {
+   
+  width: 100%;
+  height: 150px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .resources__img-wrap img {
+   
+  width: 100%;
+  height: 150px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .resources__img-wrap img {
+   
+  width: 100%;
+  height: 350px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .resources__img-wrap img {
+   
+  width: 100%;
+  height: 550px;
+  }
+}
+
+
+/* @media only screen and (max-width: 1200px) {
+  .resources__img-wrap img {
+   
+  width: 100%;
+  height: 800px;
+  }
+} */
+
+
+
+
+
 .resources__info {
   padding-top: 25px;
   padding-left: 25px;
