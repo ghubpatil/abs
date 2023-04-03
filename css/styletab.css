@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 
 
 .clearfix:before, .clearfix:after {
@@ -17,7 +18,7 @@ body {
   font-size: 1em;
   max-width: 100%;
   overflow-x: hidden;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: 'Alice', serif;
 }
 
 a {
@@ -540,7 +541,7 @@ border: solid #C0C0C0 1px;
   overflow: hidden;
   font-size: 20px;
   text-overflow: ellipsis;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: 'Alice', serif;
 
   /* white-space: break-spaces; */
    /* font-size: 1em; */

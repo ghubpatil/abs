@@ -21,7 +21,9 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+/* @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"); */
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
 /* 
 ---------------------------------------------
 reset
@@ -35,7 +37,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
   padding: 0;
   border: 0;
   outline: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: 'Alice', serif;
 
 }
 
@@ -66,14 +68,14 @@ ul, li {
   text-align: justify;
   font-size: 16px;
   list-style: none;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: 'Alice', serif;
 
 }
 
 
 header, nav, section, article, aside, footer, hgroup {
   display: block;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: 'Alice', serif;
 
 }
 
@@ -82,7 +84,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: 'Alice', serif;
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -108,17 +110,21 @@ global styles
 html,
 body {
   background: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Alice', serif;
 }
 
 ::selection {
   background: #DB251F;
   color: #fff;
+  font-family: 'Alice', serif;
+
 }
 
 ::-moz-selection {
   background: #DB251F;;
   color: #fff;
+  font-family: 'Alice', serif;
+
 }
 
 @media (max-width: 991px) {
@@ -166,6 +172,7 @@ body {
 .section-heading h6 {
   position: relative;
   font-size: 15px;
+  font-family: 'Alice', serif;
   color: #DB251F;
   font-weight: 500;
   letter-spacing: 2px;
@@ -187,6 +194,7 @@ body {
   line-height: 40px;
   margin-top: 20px;
   margin-bottom: 25px; 
+  font-family: 'Alice', serif;
   font-size: 30px;
   font-weight: 900;
   color: #2a2a2a;
@@ -288,6 +296,7 @@ header
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 600;
+  font-family: 'Alice', serif;
   font-size: 15px;
   color: #2a2a2a;
   text-transform: capitalize;
@@ -303,6 +312,8 @@ header
 
 .header-area .main-nav .nav li a {
   color: #2a2a2a;
+  font-family: 'Alice', serif;
+
 }
 
 .header-area .main-nav .nav li:hover a,
@@ -362,6 +373,7 @@ header
   color: #2a2a2a!important;
   padding-left: 20px;
   height: 40px;
+  font-family: 'Alice', serif;
   line-height: 40px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -1176,13 +1188,17 @@ reservation
   font-size: 20px;
   font-weight: 700;
   margin-top: 15px;
+  font-family: 'Alice', serif;
   margin-bottom: 10px;
+
 }
 
 #reservation .phone span a,
 #reservation .message span a {
   font-size: 14px;
   color: #2a2a2a;
+  font-family: 'Alice', serif;
+
   transition: all .3s;
 }
 
@@ -1204,6 +1220,8 @@ reservation
   font-size: 30px;
   color: #2a2a2a;
   margin-bottom: 30px;
+  font-family: 'Alice', serif;
+
 }
 
 .datepicker-days {
@@ -1217,6 +1235,7 @@ reservation
   color: e8e9e6;
   font-size: 14px;
   border: 1px solid #ddd;
+  font-family: 'Alice', serif;
   background-color: #fff;
   width: 100%;
   height: 46px;
@@ -1323,6 +1342,8 @@ reservation
 
 .newbu button {
   margin-top: -10px;
+  font-family: 'Alice', serif;
+
   font-size: 13px;
   color: #fff;
   background-color: #DB251F;

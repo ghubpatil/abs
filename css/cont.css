@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+
 h1,
         h2,
         h3,
@@ -10,7 +13,7 @@ h1,
         a:active {
             text-decoration: none;
             outline: none;
-            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+            font-family: 'Alice', serif;
 
         }
         
@@ -42,12 +45,19 @@ h1,
 }
 
 body{
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+    font-family: 'Alice', serif;
+
+}
+.titlec h4{ 
+    font-family: 'Alice', serif;
 
 }
 .sec-title-style1 {
     position: relative;
     display: block;
+    font-family: 'Alice', serif;
+
     margin-top: -9px;
     padding-bottom: 50px;
 }
@@ -66,6 +76,8 @@ body{
     display: block;
     color: #131313;
     font-size: 36px;
+    font-family: 'Alice', serif;
+
     line-height: 46px;
     font-weight: 700;
     text-transform: uppercase;
@@ -125,6 +137,7 @@ body{
     padding: 0 15px;
     color: #131313;
     font-size: 14px;
+    font-family: 'Alice', serif;
     line-height: 16px;
     font-weight: 700;
     text-transform: uppercase;
@@ -132,6 +145,8 @@ body{
 }
 .sec-title-style1 .text.clr-yellow p{
     color: #DB251F;
+    font-family: 'Alice', serif;
+
 }
 .sec-title-style1 .text .decor-left{
     position: relative;
@@ -160,6 +175,7 @@ body{
     width: 5px;
     height: 5px;
     background: #DB251F;
+    font-family: 'Alice', serif;
     border-radius: 50%;
     content: "";
 }
@@ -171,6 +187,7 @@ body{
     width: 5px;
     height: 5px;
     background: #DB251F;
+    font-family: 'Alice', serif;
     border-radius: 50%;
     content: "";
 }
@@ -181,6 +198,8 @@ body{
     display: inline-block;
     width: 70px;
     height: 5px;
+    font-family: 'Alice', serif;
+
     background: transparent;
 }
 .sec-title-style1 .text .decor-right span {
@@ -189,6 +208,8 @@ body{
     right: 0;
     bottom: 0;
     width: 50px;
+    font-family: 'Alice', serif;
+
     height: 1px;
     background: #DB251F;
     content: "";
@@ -202,6 +223,8 @@ body{
     width: 5px;
     height: 5px;
     background: #DB251F;
+    font-family: 'Alice', serif;
+
     border-radius: 50%;
     content: "";
 }
@@ -210,6 +233,8 @@ body{
     top: 0;
     left: 10px;
     bottom: 0;
+    font-family: 'Alice', serif;
+
     width: 5px;
     height: 5px;
     background: #DB251F;
@@ -225,12 +250,14 @@ body{
 .sec-title-style1 .bottom-text p{
     color: #848484;
     font-size: 16px;
+    font-family: 'Alice', serif;
     line-height: 26px;
     font-weight: 400;
     margin: 0;
 }
 .sec-title-style1 .bottom-text.clr-gray p{
     color: #cdcdcd;    
+    font-family: 'Alice', serif;
 }
 .contact-address-area{
     position: relative;
@@ -266,7 +293,7 @@ body{
 .single-contact-address-box h3{
     color: #ffffff;
     margin: 0px 0 9px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-family: 'Alice', serif;
 
 }
 .single-contact-address-box h2{
@@ -274,7 +301,7 @@ body{
     font-size: 24px;
     font-weight: 600;
     margin: 0 0 19px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-family: 'Alice', serif;
 
 }
 .single-contact-address-box a{
@@ -313,7 +340,7 @@ body{
     padding-bottom: 23px;
     margin-bottom: 24px;
     padding-top: 25px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-family: 'Alice', serif;
 
 }
 .single-contact-address-box.main-branch .inner ul li:last-child{
@@ -404,6 +431,7 @@ body{
     border: 1px solid #ddd;
     width: 100%;
     height: 55px;
+    font-family: 'Alice', serif;
     font-size: 16px;
     padding-left: 19px;
     padding-right: 15px;
@@ -537,6 +565,7 @@ body{
         width: 100%;
         background: #DB251F;
         border: 1px solid #DB251F;
+        font-family: 'Alice', serif;
         font-size: 18px;
         height:60px;
         line-height: 55px;

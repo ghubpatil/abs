@@ -10,13 +10,15 @@ Primary style
 html {
   font-size: 62.5%;
 }
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
 
 body {
   font-size: 1.6rem;
   /* font-family: sans-serif; */
   color: #2e3233;
   background-color: #ffffff;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: 'Alice', serif;
 
 }
 @media only screen and (max-width: 1169px) {

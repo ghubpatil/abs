@@ -1,8 +1,9 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 
 
 body{
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: 'Alice', serif;
 
 }
 .industry{
@@ -312,15 +313,18 @@ scrollbar-width: none;  /* Firefox */
   /* margin: 3vh 0; */
   text-align: justify;
   line-height: 1.6rem;
+  font-family: 'Alice', serif;
   margin: 10px 0;
   /* font-size: 1.1rem; */
 }
 .blog h1{
+  font-family: 'Alice', serif;
   margin: 1.8rem 0;
   width: 18ch;
 }
 .blog h3{
   margin: 1rem 0;
+  font-family: 'Alice', serif;
 }
 .blog img{
   width: 100%;
@@ -337,18 +341,19 @@ scrollbar-width: none;  /* Firefox */
   text-align: justify;
   font-size: 16px;
   list-style: decimal;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: 'Alice', serif;
 
 }
 
 .blog ul li{
   margin-left: 2rem;
+  font-family: 'Alice', serif;
   padding: 2px 0px 0px;
   margin: 0;
   text-align: justify;
   font-size: 16px;
   list-style: decimal;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: 'Alice', serif;
 
 }
 
@@ -435,6 +440,8 @@ h5{
   color: white;
   /* height: 50px; */
   padding-left: 10px;
+  font-family: 'Alice', serif;
+
   padding-right: 10px;
   padding-top: 14px;
   padding-bottom: 14px;
@@ -445,6 +452,8 @@ h5{
     /* height: 70px; */
     text-align: center;
     padding-top: 14px;
+    font-family: 'Alice', serif;
+
   }
 }
 @media only screen and (max-width: 640px) {
@@ -452,6 +461,8 @@ h5{
     /* height: 70px; */
  text-align: center;
     padding-top: 18px;
+    font-family: 'Alice', serif;
+
     /* padding-bottom: 18px; */
 
   }
