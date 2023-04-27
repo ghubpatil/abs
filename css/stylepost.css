@@ -1,0 +1,54 @@
+
+/*Animation of the title*/
+
+
+html,
+body {
+  background-color: #eceee5;
+}
+
+/* Navbar*/
+
+.containerp {
+  display: grid;
+   grid-gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 300px;
+  padding-left: 40px;
+ 
+}
+
+.containerp > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit:contain
+}
+
+.description {
+  display: none;
+  position: absolute;
+}
+
+img {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.containerp > div:hover {
+  transform: scale(1.1);
+}
+.containerp > div:hover .description {
+  display: block;
+  text-align: center;
+}
+
+.containerp > div:hover img {
+  opacity: 0.7;
+}
+.containerp > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #20263f;
+}
