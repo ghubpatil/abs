@@ -462,6 +462,8 @@ Main components
   text-align: center;
   font-size: 14px;
   font-variant-caps: inherit;
+  font-family: 'Alice', serif;
+
 }
 .cd-primary-nav .cd-nav-gallery .cd-nav-item {
   padding-left: 0px;
