@@ -46,11 +46,19 @@
 <link rel='stylesheet' href='http://leadonance.com/wp-content/themes/leadonance/style.css'>
 
 
-    <!-- case -->
+    <!-- case scrol -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!--Including External Stylesheet-->
+	<link rel="stylesheet" href="css/stylescroll.css">
+	<!--Including External JS-->
+	<script src="js/scriptscroll.js"></script>
   </head>
     
     <body>
-    
+      <button class="my_bttn">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+      </button>
     <!-- ***** Preloader Start ***** -->
     <header class="cd-main-header">
       <a class="cd-logo" href="index.html"><img src="img/Capture.PNG" style="width: 100px; height: 46px;" alt="Logo"></a>
@@ -64,9 +72,12 @@
 		<!-- your content here -->
 		
 	</main>
+ 
   <nav class="cd-nav">
     <ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
-      <li><a href="index.html#we"><b>WHAT WE DO</b></a></li>
+      <li class="what"><a href="index.html#we"><b>WHAT WE DO</b></a></li>
+      <li class="what"><a href="services.html"><b>SERVICES</b></a></li>
+
 
       <li class="has-children">
         <a href="#"><b>INDUSTRY</b></a>
@@ -75,8 +86,9 @@
           <li class="go-back"><a href="#0">Menu</a></li>
           <li>
             <a class="cd-nav-item" href="in1.html">
-              <img src="img/ban1.jpg" style="height: 150px; width: 250px;"alt="Product Image">
-              <h6 style="text-align: center;">Industrial Products And Services</h6>
+              <img src="img/ban1.jpg"  style="height: 150px;" alt="Product Image">
+              <h6 style="text-align: center;">
+                                Industrial Produts and Service</h6>
             </a>
           </li>
 
@@ -99,27 +111,27 @@
           <li>
             <a class="cd-nav-item" href="in4.html">
               <img src="img/in4.png"  style="height: 150px;"alt="Product Image">
-              <h6 style="text-align: center;">Retail, Wholesale & Distribution
+              <h6 style="text-align: center;">Retail, Wholesale and Distribution
                             </h6>
             </a>
           </li>
-                    <li>
-            <a class="cd-nav-item" href="in5.html">
-              <img src="img/trans.jpg" style="height: 150px;width: 250px;"  alt="Product Image">
-              <h6 style="text-align: center;">Transports & Hospitality Service
-                            </h6>
+          <li>
+            <a class="cd-nav-item" href="in2.html">
+              <img src="img/trans.jpg"  style="height: 150px;" alt="Product Image">
+              <h6 style="text-align: center;">
+                Transports and Hospitality Service</h6>
             </a>
           </li>
           <li>
             <a class="cd-nav-item" href="in6.html">
               <img src="img/grow.jpg" style="height: 150px;"  alt="Product Image">
-              <h6 style="text-align: center;">Mining & Metals / Oil, Gas &
+              <h6 style="text-align: center;">Mining and Metals / Oil, Gas 
                             </h6>
             </a>
           </li><li>
             <a class="cd-nav-item" href="in7.html">
               <img src="img/Gujarat-government.jpg"  style="height: 150px;"alt="Product Image">
-              <h6 style="text-align: center;">Government & Public Services
+              <h6 style="text-align: center;">Government and Public Services
 
                             </h6>
             </a>
@@ -134,9 +146,9 @@
           </li>
         </ul>
       </li>
+      <li><a href="case.html"><b>CASE STUDY</b></a></li>
 
       <li><a href="client.html"><b>CLIENT</b></a></li>
-      <li><a href="case.html"><b>CASE STUDY</b></a></li>
       <li><a href="aboutabms.html"><b>ABOUT US</b></a></li>
       <li><a href="contactabms.html"><b>CONTACT</b></a></li>
 
@@ -147,11 +159,11 @@
 
       <!-- partial:index.partial.html -->
 <div id="marketo-wrapper1">
-    <h1 style="color: white;" class="text-center">Client Case studies</h1>
+    <h1 style="color: white;"   class="text-center">Client Case studies</h1>
 </div>
 
 
-<div class="wrapper wrapper-white">
+<div class="wrapper wrapper-white" id="c1">
   <div id="primary">
     <main id="main" class="site-main" role="main">
 
@@ -165,7 +177,156 @@
       <section class="resources">
         <div class="container">
           
-          <div class="resources__item">
+
+          <div class="resources__item" >
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="resources__img-wrap text-center">
+                  <img class="img-responsive size-full" src="https://images.yourstory.com/cs/2/e641e900925711e9926177f451727da9/electricvehicle-21559742560190-1581741560259.png?fm=auto&ar=2:1&mode=crop&crop=faces&w=800" alt="case-ability">
+                </div>
+              </div>
+              
+              <div class="col-sm-6">
+                <div class="resources__info">
+                  <div class="clearfix  resources__info-top">
+                   
+                    <h1>Automotive
+                      Electric Vehicle Startup 
+                      Gujarat - India</h1>
+                  </div>
+                  <p> Advanced Business Management Services was appointed for the assignment to prepare the blue print for establishing the Manufacturing  Operations that included Vehicle Assembly line on conveyor , Inhouse Painting Facility , Chassis Fabrication and Plastic Components Molding facility.
+
+               </div>
+              </div>
+             
+            </div>
+          </div>
+
+          <div class="resources__item" id="c2">
+            <div class="row">
+              <div class="col-sm-6 col-sm-push-6">
+                <div class="resources__img-wrap text-center">
+                  <img class="img-responsive size-full" src="img/c1.jpg" alt="case-ability">
+                </div>
+              </div>
+              <div class="col-sm-6 col-sm-pull-6">
+                <div class="resources__info">
+                  <div class="clearfix  resources__info-top">
+                    
+                    <h1>Automotive
+                      Small Car Plant , 
+                      Gujarat - India </h1>
+                  </div>
+                  
+                  <p>
+                    Advanced Business Management Services was appointed to study, recommend and establishment of New Methodology for OEE in Paint Shop.
+
+                  </p>
+                </div>
+                </div>
+               </div>
+          </div>
+
+
+          <div class="resources__item" id="c3">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="resources__img-wrap text-center">
+                  <img class="img-responsive size-full" src="img/c3.png" alt="case-ability">
+                </div>
+              </div>
+              
+              <div class="col-sm-6">
+                <div class="resources__info">
+                  <div class="clearfix  resources__info-top">
+                   
+                    <h1>Automotive
+                      Manufacturing of Automotive Stamping Components
+                      Gurgaon - India</h1>
+                  </div>
+                  <p> Advanced Business Management Services was appointed to identify and recommend New Project location and also find technology partners. 
+                  </p>
+               </div>
+              </div>
+             
+            </div>
+          </div>
+
+          <div class="resources__item" id="c4">
+            <div class="row">
+              <div class="col-sm-6 col-sm-push-6">
+                <div class="resources__img-wrap text-center">
+                  <img class="img-responsive size-full" src="https://assets.superchevy.com/f/134997504.jpg?fit=around%7C480:270" alt="case-ability">
+                </div>
+              </div>
+              <div class="col-sm-6 col-sm-pull-6">
+                <div class="resources__info">
+                  <div class="clearfix  resources__info-top">
+                    
+                    <h1>Automotive
+                      Manufacturing of Automotive Fuel line Components
+                      Faridabad - India </h1>
+                  </div>
+                  
+                  <p>The company was planning to expand and diversify to manufacturing Fuel lines for BOSCH India to service top-notch AUTOMOTIVE OEMs. Advanced Business Management Services was appointed to establish the manufacturing operations.
+                  </p>
+                </div>
+                </div>
+               </div>
+          </div>
+
+
+          <div class="resources__item" id="c5">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="resources__img-wrap text-center">
+                  <img class="img-responsive size-full" src="https://novastevensville.com/wp-content/uploads/2022/05/automotive-industry-trends.jpeg" alt="case-ability">
+                </div>
+              </div>
+              
+              <div class="col-sm-6">
+                <div class="resources__info">
+                  <div class="clearfix  resources__info-top">
+                   
+                    <h1>Automotive
+                      Manufacturing of Automotive injection molded plastic components
+                      Gujarat - India</h1>
+                  </div>
+                  <p> Advanced Business Management Services was appointed to established manufacturing operations for supply of all plastic parts (over 40 variant parts ) to Tata Motors Ltd. for the Nano Project. 
+
+                  </p>
+               </div>
+              </div>
+             
+            </div>
+          </div>
+          <div class="resources__item" id="c6">
+            <div class="row">
+              <div class="col-sm-6 col-sm-push-6">
+                <div class="resources__img-wrap text-center">
+                  <img class="img-responsive size-full" src="https://businessfirstfamily.com/wp-content/uploads/2020/04/plastic-fabrication-company.jpg" alt="case-ability">
+                </div>
+              </div>
+              <div class="col-sm-6 col-sm-pull-6">
+                <div class="resources__info">
+                  <div class="clearfix  resources__info-top">
+                    
+                    <h1>Plastic Machinery Manufacturing 
+                      US MNC
+                      Gujarat - India </h1>
+                  </div>
+                  
+                  <p>As a part of their initiative Advanced Business Management Services    was assigned to improve execution performance by deploying Lean Tools. Significant results were achieved with the evolution of a cost effective Lean product, scrapping of the old ERP and implementation JD Edwards, shop floor through put improvement by implementing 5 S concepts and Kaizens.
+                  </p>
+                </div>
+                </div>
+               </div>
+          </div>
+
+
+
+
+          <div class="resources__item" id="c7">
             <div class="row">
               <div class="col-sm-6">
                 <div class="resources__img-wrap text-center">
@@ -200,9 +361,7 @@
                    </li>
                   </ol>
                   
-                
-
-                </div>
+              </div>
               </div>
               <div class="col-sm-12">
                 <div class="resources__info">
@@ -213,13 +372,11 @@
                   </p>
                 </div>
               </div>
-
-
             </div>
           </div>
           
           
-          <div class="resources__item">
+          <div class="resources__item" id="c8">
             <div class="row">
               <div class="col-sm-6 col-sm-push-6">
                 <div class="resources__img-wrap text-center">
@@ -264,14 +421,14 @@
           </div>
           
    <!-- Начало кода страницы -->
-   <section class="resources">
+   <section class="resources"  id="c9">
     <div class="container">
       
       <div class="resources__item">
         <div class="row">
           <div class="col-sm-6">
             <div class="resources__img-wrap text-center">
-              <img class="img-responsive size-full" src="https://propakindia.com/UIComponents/Images/Serac.png" alt="case-ability">
+              <img class="img-responsive size-full" src="https://images.pexels.com/photos/5532717/pexels-photo-5532717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="case-ability">
             </div>
           </div>
           
@@ -340,7 +497,7 @@
 
 
 
-        <div  class="resources__item">
+        <div  class="resources__item" id="c10">
           <div class="row">
             <div class="col-sm-6 col-sm-push-6">
               <div class="resources__img-wrap text-center">
@@ -371,7 +528,7 @@
              </div>
         </div>
 
-        <div class="resources__item">
+        <div class="resources__item" id="c11">
           <div class="row">
             <div class="col-sm-6">
               <div class="resources__img-wrap text-center">
@@ -422,7 +579,7 @@
              </div>
         </div>
 
-        <div  class="resources__item">
+        <div  class="resources__item" id="c12">
           <div class="row">
             <div class="col-sm-6 col-sm-push-6">
               <div class="resources__img-wrap text-center">
@@ -467,7 +624,7 @@
 
 
         
-        <div class="resources__item">
+        <div class="resources__item" id="c13">
           <div class="row">
             <div class="col-sm-6">
               <div class="resources__img-wrap text-center">
@@ -517,7 +674,7 @@
         </div>
 
 
-        <div  class="resources__item">
+        <div  class="resources__item" id="c14">
           <div class="row">
             <div class="col-sm-6 col-sm-push-6">
               <div class="resources__img-wrap text-center">
@@ -583,7 +740,7 @@
         </div>
 
 
-        <div class="resources__item">
+        <div class="resources__item" id="c15">
           <div class="row">
             <div class="col-sm-6">
               <div class="resources__img-wrap text-center">
@@ -642,7 +799,7 @@
              </div>
         </div>
 
-        <div  class="resources__item">
+        <div  class="resources__item" id="c16">
           <div class="row">
             <div class="col-sm-6 col-sm-push-6">
               <div class="resources__img-wrap text-center">
@@ -685,6 +842,65 @@
             </div>
             
              </div>
+        </div>
+
+        <div class="resources__item" id="c17">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="resources__img-wrap text-center">
+                <img class="img-responsive size-full" src="https://media.licdn.com/dms/image/C5612AQF--heIfkZdaQ/article-cover_image-shrink_423_752/0/1644541024441?e=1687996800&v=beta&t=09MdKAWvZQ_tlzmnuTqZ3M-ie0umnSrqKngkqEUbMOs" alt="case-ability">
+              </div>
+            </div>
+            
+            <div class="col-sm-6">
+              <div class="resources__info">
+                <div class="clearfix  resources__info-top">
+                 
+                  <h1>Supercharging the Growth Potential of SME’s
+                  </h1>
+                </div>
+                <b>Plastics Machinery Manufacturing – Injection Molded Products Manufacturing – Extrusion Products Manufacturing
+                </b>
+                <p>Every economy’s strongest backbone is its small businesses. Small Medium Enterprises are the future and to make them work and assess their potential is crucial.
+                </p>
+                <p>ABMS does the same with conviction and resilience.
+                  SMEs need innovative solutions, creative outreach and contemporary ideas. Let’s explore how ABMS unlocked the potential of upcoming SME’s in India.</p>
+                  <p></p>
+             </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="resources__info">
+                <b>Identifying Potential through Intelligent Business Potential Assessment
+
+                </b>
+                <p>A Unique, HIGH intensity Engagement - " Enterprise Potential Assessment" an in-depth assessment tool - to evaluate and quantify potential - for the overall business - delivered by combining digital and physical platforms
+                </p>
+                <b>Market Opportunity and Global Presence
+                </b>
+                <p>When it comes to SMEs, the market is pretty volatile and competitive. Thus, it becomes paramount to study the market scenario that can change the whole statistics.
+                </p>
+                <p>ABMS delved into the Domestic and Global - distinctive segments of the market that dealt with requirement of Plastic Extruded products. And that contributed in amplifying the product portfolio of the said SME in Gujarat by multifold.
+                </p>
+                <b>Drawing the business growth journey blue print - Building Strategies
+                </b><p>Strategy is the basis for every business. At ABMS we understand that to the very core. Around 56% of business owners planned to grow the business a year ahead. So, strategy plays a vital role when it comes to opening a business and keep growing to its potential.
+                </p>
+                <b>Joint Venture and Technology transfer
+                </b><p>ABMS assessed the potential of the SME and understood the Technology enhancement required and the scope for a Joint venture.
+                  ABMS then spearheaded the leadership team of the plastic extrusion company, hand holding through the complete business conception - right from identifying a joint venture partner, signing the MoU to the realization of the venture with Leading European entity.
+
+                </p>
+                <b>Enhancing Profitability
+                </b>
+                <p>Now, every business wants to be profitable. That’s the primary objective. Making that vision come true is the real deal.
+                </p>
+                <b>Digitization of Operation
+                </b>
+                <p>ABMS coached the team to extract analytical data and implement absolute digitization of the operations to ensure a safe, smooth and quick transition.
+                </p>
+              </div>
+            </div>
+           
+          </div>
         </div>
 
 
