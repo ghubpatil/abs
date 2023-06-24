@@ -15,7 +15,7 @@ body{
 .left{
   position: relative;
   width: 100%;
-  height: 640px;
+  height: 600px;
 }
 .img{
   position: relative;
@@ -379,7 +379,7 @@ scrollbar-width: none;  /* Firefox */
   }
   .option-btn, .counter{
     color: white;
-    padding-left: 100px;
+    padding-left: 10px;
   }
 }
 

@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600&display=swap");
+/* body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} */
+
+.link {
+  background: #022623;
+
+  padding: 12px 18px;
+  text-decoration: none;
+  display: flex;
+  transition: 0.4s ease-in-out;
+  border-radius: 8px;
+}
+.link:not(:first-of-type) {
+  margin-top: 20px;
+}
+.link--with-bg:hover {
+  background: #89D9D1;
+}
+.link--with-bg:hover .link__label {
+  color: #022623;
+}
+.link--with-bg:hover .link__label::after {
+  width: 100%;
+  background: #022623;
+}
+.link--with-bg:hover .link__icon::before {
+  left: 2px;
+  border-color: #022623;
+}
+.link--with-bg:hover .link__icon::after {
+  opacity: 1;
+  left: 13px;
+  width: 15px;
+  background: #022623;
+}
+.link:hover .link__label::after {
+  width: 100%;
+}
+.link:hover .link__icon::before {
+  left: 2px;
+}
+.link:hover .link__icon::after {
+  opacity: 1;
+  left: 13px;
+  width: 15px;
+}
+.link__label {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #89D9D1;
+  position: relative;
+  display: block;
+}
+.link__label::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: #89D9D1;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  display: block;
+  transition: 0.2s ease-in-out;
+}
+.link__icon {
+  position: relative;
+  padding: 0 10px;
+  transition: 0.1s ease-in-out;
+}
+.link__icon::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-top: 2px #89D9D1 solid;
+  border-right: 2px #89D9D1 solid;
+  display: block;
+  position: relative;
+  top: 50%;
+  left: -2px;
+  transform: rotate(45deg) translateY(-50%);
+  margin-top: -1px;
+  transition: 0.3s ease-in-out;
+}
+.link__icon::after {
+  content: "";
+  width: 10px;
+  height: 2px;
+  background: #89D9D1;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  margin-top: 1px;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}

@@ -75,6 +75,7 @@ Main components
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
   transition: transform 0.3s;
+  
 }
 @media only screen and (max-width: 1169px) {
   .cd-main-content.nav-is-visible, .cd-main-header.nav-is-visible {
@@ -96,7 +97,7 @@ Main components
 .cd-main-content {
   background: #e2e3df;
   min-height: 1px;
-  z-index: 2;
+  z-index: 8;
   box-shadow: inset 0 1px 0 #e2e3df, 0 3px 6px rgba(0, 0, 0, 0.05);
 
 }
@@ -104,7 +105,7 @@ Main components
 .cd-main-header {
   height: 60px;
   background-color: white;
-  z-index: 3;
+  z-index: 8;
   box-shadow: inset 0 1px 0 #e2e3df, 0 3px 6px rgba(0, 0, 0, 0.05);
 
 }
@@ -378,12 +379,12 @@ Main components
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 6;
   height: 78%;
   width: 290px;
   background: white;
   overflow: visible;
   -webkit-overflow-scrolling: touch;
-  z-index: 1;
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -593,7 +594,7 @@ Main components
   .cd-primary-nav.nav-is-visible {
     visibility: visible;
     overflow: scroll;
-    padding-top: 70px;
+    padding-top: 85px;
     -webkit-transition: visibility 0s 0s;
     -moz-transition: visibility 0s 0s;
     transition: visibility 0s 0s;
@@ -687,7 +688,7 @@ Main components
     display: flex;
     flex-wrap: wrap;
     background: #ffffff;
-    padding: 48px 64px 130px;
+    padding: 48px 44px 60px 70px;
     box-shadow: inset 0 1px 0 #e2e3df, 0 3px 6px rgba(0, 0, 0, 0.05);
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
@@ -830,14 +831,13 @@ Main components
     margin: 0 4% 40px 0;
   }
   .cd-primary-nav .cd-nav-gallery li:nth-child(4n+2) {
-    /* +2 because we have two additional list items with display:none */
     margin-right: 0;
     padding-right:20px;
+    padding-left: 25px;
   }
 
 
   .cd-primary-nav .cd-nav-gallery li:nth-child(4n+3) {
-    /* +2 because we have two additional list items with display:none */
     padding-left:25px;
   }
   .cd-primary-nav .cd-nav-gallery .cd-nav-item {

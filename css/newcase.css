@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  i {
+    opacity: 0;
+    font-size: 18px;
+    color:black;
+    will-change: transform;
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  
+  /* h1 {
+    pointer-events: none;
+  } */
+  
+  body {
+    background-color: #E6E5E1;
+    /* width: 100vw; */
+    /* height: 100vh; */
+    overflow-x: hidden;
+    font-family: 'Alice', serif;
+
+  }
+  
+  .containercase {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-flow: wrap;
+  
+    margin:35px 40px 40px 30px;
+   
+  }
+
+
+  @media only screen and (max-width: 360px) {
+    .containercase {
+
+      margin: 13px 20px 20px 2px;
+
+    }
+
+
+  }
+
+
+
+
+  @media only screen and (max-width: 640px) {
+    .containercase {
+
+      margin: 13px 20px 20px 2px;
+
+    }
+  
+
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    .containercase {
+
+      margin: 13px 20px 20px 2px;
+
+    }
+  
+
+  }
+  @media only screen and (max-width: 768px) {
+
+    .containercase {
+
+      margin: 13px 20px 20px 2px;
+
+  
+    }
+    
+  }
+
+
+
+
+  .col-lg-6{
+    padding: 0 10px 0px 0;
+  }
+  .containercase .cardser {
+    position: relative;
+    width: 590px;
+    height: 360px;
+    background-color: #fff;
+    overflow: hidden;
+    margin-bottom: 4px;
+  }
+  .containercase .cardser:before {
+    content: "";
+    /* z-index: 99; */
+    position: absolute;
+    top: -10px;
+    left: 32px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    background-color: #E6E5E1;
+  }
+  .containercase .cardser:after {
+    content: "";
+    /* z-index: 99; */
+    position: absolute;
+    bottom: -10px;
+    left: 32px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    background-color: #E6E5E1;
+  }
+  .containercase .cardser ul {
+    /* z-index: 99; */
+    position: absolute;
+    left: 39px;
+    top: 5px;
+    list-style-type: none;
+  }
+  .containercase .cardser ul li {
+    width: 2px;
+    height: 2px;
+    border-radius: 2px;
+    margin: 6px 0;
+    background-color: #E6E5E1;
+  }
+  .containercase .cardser h1 {
+    z-index:1;
+    font-family: 'Alice', serif;
+    position: absolute;
+    bottom: 40px;
+    right: 130px;
+    padding-left: 50px;
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+  }
+
+
+
+  @media only screen and (max-width: 360px) {
+    .containercase .cardser h1 {
+      z-index:1;
+
+      bottom: 40px;
+      right: 220px;
+      font-size: 23px;
+      font-weight: 700;
+      color: white;
+    }
+  }
+
+
+  @media only screen and (max-width: 640px) {
+    .containercase .cardser h1 {
+      z-index:1;
+
+      bottom: 40px;
+      right: 220px;
+      
+      font-size: 23px;
+      font-weight: 700;
+      color: white;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 700px) {
+    .containercase .cardser h1 {
+      z-index: 1;
+
+      bottom: 40px;
+      right: 220px;
+      font-size: 23px;
+      font-weight: 700;
+      color: white;
+    }
+  }
+
+
+
+
+
+  @media only screen and (max-width: 768px) {
+    .containercase .cardser h1 {
+      z-index: 1;
+      bottom: 40px;
+      right: 220px;
+      font-size: 23px;
+      font-weight: 700;
+      color: white;
+    }
+  }
+
+
+
+
+
+
+  .containercase .cardser .fa-arrow-right {
+    z-index: 100;
+    position: absolute;
+    right: 75px;
+    bottom: 25px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+  }
+
+
+
+
+
+
+  @media only screen and (max-width: 360px) {
+    .containercase .cardser .fa-arrow-right {
+      right: 260px;
+      font-size: 20px;
+      padding-top: 5px;
+
+
+    }
+  }
+  
+  
+  
+  
+  @media only screen and (max-width: 640px) {
+    .containercase .cardser .fa-arrow-right {
+      right: 260px;      font-size: 20px;      padding-top: 5px;
+
+
+
+    }
+  }
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 700px) {
+    .containercase .cardser .fa-arrow-right {      right: 260px;      font-size: 20px;
+      padding-top: 5px;
+
+
+    }
+  }
+  
+  
+  
+  
+  @media only screen and (max-width: 768px) {
+  
+    .containercase .cardser .fa-arrow-right {      right: 260px;
+      font-size: 20px;      padding-top: 5px;
+
+
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+  .containercase .cardser p {
+    z-index: 99;
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    color: #333;
+    opacity: 0.7;
+    font-size: 12px;
+    letter-spacing: 1px;
+    writing-mode: vertical-lr;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  
+
+  .containercase .cardser .pic {
+    /* z-index: 100; */
+    width: auto;
+    height: auto;
+    /* background-image: url("https://images.yourstory.com/cs/2/e641e900925711e9926177f451727da9/electricvehicle-21559742560190-1581741560259.png?fm=auto&ar=2:1&mode=crop&crop=faces&w=800"); */
+    /* background-size: 100% 100%; */
+    filter: grayscale(100%);
+  }
+  .containercase .cardser img {
+    /* z-index: 100; */
+    width: 600px;
+    height: 360px;
+    /* background-image: url("https://images.yourstory.com/cs/2/e641e900925711e9926177f451727da9/electricvehicle-21559742560190-1581741560259.png?fm=auto&ar=2:1&mode=crop&crop=faces&w=800"); */
+    /* background-size: 100% 100%; */
+    /* filter: grayscale(100%); */
+  }
+  .containercase .cardser .socialmm {
+    position: absolute;
+    left: 60px;
+    top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: black;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 180px;
+    height: 64px;
+    border-radius: 80px;
+  }
+  
+  .containercase .cardser .socialmm i:nth-of-type(1) {
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+  }
+  .containercase .cardser .socialmm i:nth-of-type(2) {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+  }
+  .containercase .cardser .socialmm i:nth-of-type(3) {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+  }
+  .containercase .cardser .socialmm i:nth-of-type(4) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+  }
+  .containercase .cardser:hover i {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  .containercase .cardser button {
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+    width: 30px;
+    height: 30px;
+    background-color: #DA4D1D;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+    mix-blend-mode: hard-light;
+  }
+
+
+  @media only screen and (max-width: 360px) {
+    .containercase .cardser button {
+
+      right: 145px;
+
+    }
+
+
+  }
+
+
+
+
+  @media only screen and (max-width: 640px) {
+    .containercase .cardser button {
+
+      right: 145px;
+
+    }
+  
+
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    .containercase .cardser button {
+
+      right: 145px;
+
+    }
+  
+
+  }
+  @media only screen and (max-width: 768px) {
+
+    .containercase .cardser button {
+
+      right: 145px;
+
+  
+    }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .containercase .cardser button i {
+    font-size: 3rem;
+  }
+  .containercase .cardser:hover button  {
+    transform: scale(16.5);
+  }
+  
+  .containercase .cardser:hover p {
+    color: #fff;
+  }
+  .containercase .cardser:hover .pic {
+    filter: grayscale(0);
+  }
+  .containercase .cardser .pic {
+    /* z-index: 100; */
+    width: 600px;
+    height: 400px;
+    /* background-image: url("https://images.yourstory.com/cs/2/e641e900925711e9926177f451727da9/electricvehicle-21559742560190-1581741560259.png?fm=auto&ar=2:1&mode=crop&crop=faces&w=800"); */
+    background-size: 100% 100%;
+    filter: grayscale(100%);
+  }
+  .containercase .cardser2 button {
+    background-color: #2b26c3;
+  }
+  
+  .dr {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    width: 100px;
+  }

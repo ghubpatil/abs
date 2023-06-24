@@ -1,0 +1,43 @@
+
+  /* section {
+    height: 100vh;
+    width: 100%;
+    background-color: royalblue;
+  }
+  #sec-2 {
+    background-color: black;
+  }
+  #sec-3 {
+    background-color: yellowgreen;
+  }
+  #sec-4 {
+    background-color: crimson;
+  } */
+  
+  .scroll-tops {
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.336);
+    /* hover effect default */
+    transform: scale(0.9);
+    transition: 0.3s ease-in-out transform;
+    /* for centering the icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .scroll-tops svg {
+    width: 50%;
+    color: black;
+    pointer-events: none;
+  }
+  
+  .scroll-tops:hover {
+    transform: scale(1);
+  }

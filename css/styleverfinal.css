@@ -58,10 +58,10 @@ body{
   padding: 0.1rem 0;
   margin: 0;
   overflow: hidden;
-  border: none;
-  background-color:#DB251F;
+  border: 1px solid gray;
+  background-color:rgba(255, 255, 255, 0.4);
   outline: none;
-  border-bottom: 1.3px solid #d4d4d4;
+  /* border-bottom: 1.3px solid #d4d4d4; */
 }
 .mymain .accordion-item .title {
   display: flex;
@@ -72,11 +72,11 @@ body{
   font-weight: 600;
   line-height: inherit;
   cursor: pointer;
-  color: white;
+  color: #282C35;
 }
 .mymain .accordion-item .title i.fas {
   font-size: 0.9rem;
-  color: white;
+  color: #FFA500;
   transform: translateX(-50%) rotate(0);
   transition: transform 0.15s ease;
 }
@@ -93,14 +93,14 @@ body{
 
 
 img {
-  border-radius: 5px 5px 0 0;
+  border-radius: 0px 0px 0 0;
 }
 
 
 
 
 .mymain .accordion-item.active .title i.fas {
-  color: #1a9de1;
+  color: #FFA500;
   transform: translateX(-50%) rotate(180deg);
 }
 .mymain .accordion-item.active .paragraphv {
@@ -111,6 +111,6 @@ img {
   .mymain .accordion {
     max-width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 1px 10px 5px 10px;
   }
 }

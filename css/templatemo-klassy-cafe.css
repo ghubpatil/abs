@@ -40,6 +40,9 @@ figure, header, nav, section, article, aside, footer, figcaption {
   font-family: 'Alice', serif;
 
 }
+h5{
+  color: #FFA500;
+}
 
 .clearfix:after {
   content: ".";
@@ -65,7 +68,7 @@ html[xmlns] .clearfix {
 ul, li {
   padding: 6px 0px 0px;
   margin: 0;
-  text-align: justify;
+  text-align: center;
   font-size: 16px;
   list-style: none;
   font-family: 'Alice', serif;
@@ -86,7 +89,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Alice', serif;
   font-weight: 400;
-  background-color: #fff;
+  /* background-color: #fff; */
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -109,7 +112,7 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  /* background: #fff; */
   font-family: 'Alice', serif;
 }
 
@@ -171,7 +174,7 @@ body {
 
 .section-heading h6 {
   position: relative;
-  font-size: 15px;
+  font-size: 20px;
   font-family: 'Alice', serif;
   color: #DB251F;
   font-weight: 500;
@@ -182,11 +185,11 @@ body {
 
 .section-heading h6:before {
   width: 30px;
-  height: 1px;
+  height: 2px;
   content: '';
   position: absolute;
   left: 0;
-  top: 8px;
+  top: 10px;
   background-color: #DB251F;
 }
 
@@ -838,13 +841,72 @@ menu
 .info {
   position: relative;
   width: 100%;
-  background-color: #DB251F;
-  border: 1px solid #DB251F;
+  /* background-color: #DB251F;
+  border: 1px solid #DB251F; */
   transform: translateY(100%)
   translateY(120px)
   translateZ(0);
+  margin-bottom: 180px;
   transition: transform 0.5s ease-out;
 }
+
+
+
+
+
+@media only screen and (max-width: 360px) {
+  .info{
+    margin-bottom: 80px;
+
+}
+}
+
+
+
+@media only screen and (max-width: 640px) {
+  .info{
+    margin-bottom: 80px;
+
+}}
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+  .info{
+    margin-bottom: 80px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .info{
+    margin-bottom: 80px;
+
+}
+}
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .card:hover .info,
 .card:hover .info:before {

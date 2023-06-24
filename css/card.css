@@ -179,13 +179,13 @@ color: #555555;
 }
 
 
-.resources__info {
+.resources__infop {
   padding-top: 25px;
-  padding-left: 25px;
+  padding-left: 2px;
   font-family: 'Alice', serif;
 
 }
-.resources__info h1 {
+.resources__infop h1 {
   font-size: 31px;
   line-height: 37px;
   margin: 0;
@@ -194,7 +194,7 @@ color: #555555;
   /* font-family: 'Raleway', sans-serif; */
   margin-right: 160px;
 }
-.resources__info h2 {
+.resources__infop h2 {
   /* font-family: "Droid Serif", serif; */
   font-family: 'Alice', serif;
 
@@ -205,15 +205,15 @@ color: #555555;
   font-size: 21px;
   line-height: 28px;
 }
-.resources__info-top {
+.resources__infop-top {
   margin-bottom: 20px;
 }
 
 .resources__btn-area {
   margin-top: 20px;
 }
-.resources__info p {
-  padding-right: 30px;
+.resources__infop p {
+  padding-right: 0px;
 }
 
 
@@ -268,13 +268,13 @@ color: #555555;
   max-height: 80px;  
 }
 @media (max-width: 767px) {
-  .resources__info h1 {
+  .resources__infop h1 {
     margin-right: 0;
   }
   
 }
 @media (min-width: 768px) {
-  .resources__info h1 {
+  .resources__infop h1 {
     margin-right: 0;
   }
 }
@@ -292,5 +292,22 @@ color: #555555;
 }
 
 #marketo-wrapper1 h1{
-padding: 100px;
+padding: 180px;
+}
+
+
+
+#marketo-wrapper2{
+  background-image: url("https://images.pexels.com/photos/1631064/pexels-photo-1631064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100% ;
+  position:relative;
+  opacity: 0.8;
+  padding: 40px 0 40px;
+  height: 530px;
+}
+
+#marketo-wrapper2 h1{
+padding: 180px;
 }
