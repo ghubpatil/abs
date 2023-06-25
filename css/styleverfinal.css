@@ -70,6 +70,7 @@ body{
   font-family: inherit;
   font-size: 1rem;
   font-weight: 600;
+  padding-left: 100px;
   line-height: inherit;
   cursor: pointer;
   color: #282C35;
