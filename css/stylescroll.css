@@ -2,41 +2,19 @@ body{
 	padding: 0;
 	margin: 0;
 }
-/* }
-.wrapper{
-	text-align: justify;
-	font-family: 'Poppins',sans-serif;
-}
-h1{
-	color: white;
-	text-align: center; 
-	margin-top: 0; 
-	padding: 15px 0 15px 0; 	
-}
-h1>span{
-	font-size: 15px;
-	display: block;
-	letter-spacing: 2px;
-}
-p{
-	line-height: 35px;
-	font-size: 20px;
-	letter-spacing: 0.5px;
-	margin:0 20px 0 20px;
-}
-p:not(:last-child){
-	margin-bottom: 35px;
-} */
+ 
 .my_bttn{
 	height: 45px;
 	width: 45px;
 	background-color: white;
 	border: 2px solid #2d3748;
+	border-radius: 50%;
+	content: '⬆';
 	color: #2d3748;
 	position: fixed;
 	bottom: 30px;
 	right: 18px;
-	border-radius: 5px;
+	/* border-radius: 5px; */
 	cursor: pointer;
 	outline: none;
 	z-index: 4;
@@ -45,3 +23,211 @@ p:not(:last-child){
 .my_bttn:hover{
 	transform: scale(1.05) translateY(-5px);
 }
+ 
+
+
+@font-face {
+	font-family: 'unicons';
+	src: url('unicons.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  /* body {
+	background: url('background.jpg') no-repeat fixed;
+	height: 3000px;
+	color: #c9c5c5;
+  } */
+  
+  @-webkit-keyframes border-transform {
+	0%,100% { border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%; }
+	14% { border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%; }
+	28% { border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%; }
+	42% { border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%; }
+	56% { border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%; }
+	70% { border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%; }
+	84% { border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%; }
+  }
+  
+  .progress-wrap {
+	position: fixed;
+	right: 10px;
+	bottom: 40px;
+	height: 50px;
+	width: 47px;
+	cursor: pointer;
+	display: block;
+	border-radius: 50px;
+	box-shadow: inset 0 0 0 2px rgba(255,255,255,0.2);
+	z-index: 10000;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(15px);
+	-webkit-transition: all 200ms linear;
+	transition: all 200ms linear;
+	
+  }
+  
+  .progress-wrap.active-progress {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+  }
+  
+  .progress-wrap::after {
+	position: absolute;
+	font-family: 'unicons';
+	content: '⬆';
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	color: black;
+	left: 0;
+	top: 0;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	display: block;
+	z-index: 1;
+	-webkit-transition: all 200ms linear;
+	transition: all 200ms linear;
+  }
+  
+  .progress-wrap:hover::after {
+	opacity: 0;
+  }
+  
+  .progress-wrap::before {
+	position: absolute;
+	font-family: 'unicons';
+	content: '⬆';
+	text-align: center;
+	line-height: 50px;
+	font-size: 26px;
+	opacity: 0;
+	background: #000;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	left: 0;
+	top: 0;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	display: block;
+	z-index: 2;
+	-webkit-transition: all 200ms linear;
+	transition: all 200ms linear;
+  }
+  
+  .progress-wrap:hover::before {
+	opacity: 1;
+  }
+  
+  .progress-wrap svg path {
+	fill: none;
+	color: #000;
+  }
+  
+  .progress-wrap svg.progress-circle path {
+	stroke: black;
+	stroke-width: 4;
+	box-sizing: border-box;
+	-webkit-transition: all 200ms linear;
+	transition: all 200ms linear;
+  }
+  
+
+
+
+
+
+
+  
+  .progress-wrapw {
+	position: fixed;
+	right: 10px;
+	bottom: 40px;
+	height: 50px;
+	width: 47px;
+	cursor: pointer;
+	display: block;
+	border-radius: 50px;
+	box-shadow: inset 0 0 0 2px rgba(255,255,255,0.2);
+	z-index: 10000;
+	opacity: 0;
+	background-color: white;
+	visibility: hidden;
+	transform: translateY(15px);
+	-webkit-transition: all 200ms linear;
+	transition: all 200ms linear;
+	
+  }
+  
+  .progress-wrapw.active-progress {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+  }
+  
+  .progress-wrapw::after {
+	position: absolute;
+	font-family: 'unicons';
+	content: '⬆';
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	color: black;
+	left: 0;
+	top: 0;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	display: block;
+	z-index: 1;
+	-webkit-transition: all 200ms linear;
+	transition: all 200ms linear;
+  }
+  
+  .progress-wrapw:hover::after {
+	opacity: 0;
+  }
+  
+  .progress-wrapw::before {
+	position: absolute;
+	font-family: 'unicons';
+	content: '⬆';
+	text-align: center;
+	line-height: 50px;
+	font-size: 26px;
+	opacity: 0;
+	background: #000;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	left: 0;
+	top: 0;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	display: block;
+	z-index: 2;
+	-webkit-transition: all 200ms linear;
+	transition: all 200ms linear;
+  }
+  
+  .progress-wrapw:hover::before {
+	opacity: 1;
+  }
+  
+  .progress-wrapw svg path {
+	fill: none;
+	color: #000;
+  }
+  
+  .progress-wrapw svg.progress-circle path {
+	stroke: black;
+	stroke-width: 4;
+	box-sizing: border-box;
+	-webkit-transition: all 200ms linear;
+	transition: all 200ms linear;
+  }
+  
