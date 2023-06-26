@@ -76,7 +76,7 @@
 
     .containercase {
 
-      margin: 13px 20px 20px 2px;
+      margin: 13px 20px 20px -3px;
 
   
     }
@@ -97,6 +97,59 @@
     overflow: hidden;
     margin-bottom: 4px;
   }
+
+
+
+
+
+  @media only screen and (max-width: 360px) {
+    .containercase .cardser {
+      position: relative;
+     padding-right:255px ;
+    }
+
+
+  }
+
+
+
+
+  @media only screen and (max-width: 640px) {
+    .containercase .cardser {
+      position: relative;
+     padding-right:255px ;
+    }
+  
+
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    .containercase .cardser {
+      position: relative;
+     padding-right:255px ;
+    }
+  
+
+  }
+  @media only screen and (max-width: 768px) {
+
+    .containercase .cardser {
+      position: relative;
+     padding-right:255px ;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
   .containercase .cardser:before {
     content: "";
     /* z-index: 99; */
@@ -154,7 +207,7 @@
       z-index:1;
 
       bottom: 40px;
-      right: 220px;
+      right: 250px;
       font-size: 23px;
       font-weight: 700;
       color: white;
@@ -167,7 +220,7 @@
       z-index:1;
 
       bottom: 40px;
-      right: 220px;
+      right: 250px;
       
       font-size: 23px;
       font-weight: 700;
@@ -182,7 +235,7 @@
       z-index: 1;
 
       bottom: 40px;
-      right: 220px;
+      right: 250px;
       font-size: 23px;
       font-weight: 700;
       color: white;
@@ -197,7 +250,7 @@
     .containercase .cardser h1 {
       z-index: 1;
       bottom: 40px;
-      right: 220px;
+      right: 260px;
       font-size: 23px;
       font-weight: 700;
       color: white;
@@ -448,9 +501,64 @@
     background-size: 100% 100%;
     filter: grayscale(100%);
   }
+
+
+
+
+
+
+  @media only screen and (max-width: 360px) {
+    .containercase .cardser .pic {
+      padding-right: 266px;
+
+    }
+
+  }
+
+
+
+
+  @media only screen and (max-width: 640px) {
+    .containercase .cardser .pic {
+      padding-right: 266px;
+
+    }
+
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    .containercase .cardser .pic {
+      padding-right: 266px;
+
+    }
+  
+
+  }
+  @media only screen and (max-width: 768px) {
+
+    .containercase .cardser .pic {
+      padding-right: 266px;
+
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
   .containercase .cardser2 button {
     background-color: #2b26c3;
   }
+  
+
+
   
   .dr {
     position: absolute;
