@@ -41,7 +41,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
 
 }
 h5{
-  color: #FFA500;
+  color:#DB251F;
 }
 
 .clearfix:after {
@@ -841,8 +841,8 @@ menu
 .info {
   position: relative;
   width: 100%;
-  /* background-color: #DB251F;
-  border: 1px solid #DB251F; */
+  /* background-color: #000000a8; */
+  /* border: 1px solid #DB251F; */
   transform: translateY(100%)
   translateY(120px)
   translateZ(0);
