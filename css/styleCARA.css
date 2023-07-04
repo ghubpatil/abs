@@ -105,6 +105,52 @@ body{margin:0;padding:0;}
 .Advance-Slider .item .contain-wrapper .info{max-width:1200px;}
 .Advance-Slider .item h5 span{color:#DB251F;background-size: cover;background-color: #000000a8;}
 .Advance-Slider .item h3 span{color:#DB251F; border-left: 5px solid red;background-size: cover;background-color: #000000a8;}
+
+
+
+@media only screen and (max-width: 360px) {
+  .Advance-Slider .item h3  span{
+    font-size: 30px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 640px) {
+  .Advance-Slider .item h3  span{
+    font-size: 30px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+  .Advance-Slider .item h3  span{
+    font-size: 30px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .Advance-Slider .item h3  span{
+    font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
 .Advance-Slider .item h3{animation:fadeOutRight 1s both;}
 
 
@@ -115,7 +161,7 @@ body{margin:0;padding:0;}
 
 @media only screen and (max-width: 360px) {
   .Advance-Slider .item h3{
-    font-size: 22px;
+    font-size: 24px;
     padding-top: 70px;
     animation:fadeOutRight 1s both;}
 }
@@ -125,7 +171,7 @@ body{margin:0;padding:0;}
 
 @media only screen and (max-width: 640px) {
   .Advance-Slider .item h3{
-    font-size: 22px;
+    font-size: 24px;
     padding-top: 70px;
 
     animation:fadeOutRight 1s both;}
@@ -138,7 +184,7 @@ body{margin:0;padding:0;}
 
 @media only screen and (max-width: 700px) {
   .Advance-Slider .item h3{
-    font-size: 22px;
+    font-size: 24px;
     padding-top: 70px;
 
     animation:fadeOutRight 1s both;}
@@ -150,14 +196,54 @@ body{margin:0;padding:0;}
 @media only screen and (max-width: 768px) {
 
   .Advance-Slider .item h3{
-    font-size: 22px;
+    font-size: 24px;
     padding-top: 90px;
     animation:fadeOutRight 1s both;}
 }
 
   
+
+
+
+
+@media only screen and (max-width: 360px) {
+  .Advance-Slider .item h5{
+    font-size: 24px;
+    }
+}
+
+
   
 
+@media only screen and (max-width: 640px) {
+  .Advance-Slider .item h3{
+    font-size: 24px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+  .Advance-Slider .item h3{
+    font-size: 24px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .Advance-Slider .item h3{
+    font-size: 24px;
+  }
+}
+
+  
+  
 
 
 
