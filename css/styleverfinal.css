@@ -69,15 +69,15 @@ body{
   align-items: center;
   font-family: inherit;
   font-size: 18.5px;
-  font-weight: 600;
+  font-weight: 500;
   padding-left: 10px;
   line-height: inherit;
   cursor: pointer;
-  color: #282C35;
+  color: black;
 }
 .mymain .accordion-item .title i.fas {
   font-size: 0.9rem;
-  color: #FFA500;
+  color: black;
   transform: translateX(-50%) rotate(0);
   transition: transform 0.15s ease;
 }
@@ -101,7 +101,7 @@ img {
 
 
 .mymain .accordion-item.active .title i.fas {
-  color: #FFA500;
+  color: black;
   transform: translateX(-50%) rotate(180deg);
 }
 .mymain .accordion-item.active .paragraphv {
